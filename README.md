@@ -148,7 +148,7 @@ pada staging sebelum proses commit.
 
     ![edit readme](img/15.png)
 
-* Pengeditan file menggunakan bahasa markup .md, silahkan lihat dokumentasi nya di browser [link markup](https://guides.github.com/features/mastering-markdown/)
+* Pengeditan file menggunakan bahasa markup .md, silahkan lihat dokumentasi nya [disini](https://guides.github.com/features/mastering-markdown/)
 
 * Jika sudah klik save, lalu ketik ``git add .``, ``git commit 'commit ketiga`` dan ``git push -u origin master``
 
