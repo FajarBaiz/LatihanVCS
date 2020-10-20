@@ -43,9 +43,9 @@ pada staging sebelum proses commit.
 * Drop direktori ke terminal / CMD
 * Buat direktory project praktikum pertama dengan nama LatihanVCS
 
-  ``$ mkdir latihan1``
+  ``$ mkdir LatihanVCS``
  
-  ``$ cd latihan1``
+  ``$ cd LatihanVCS``
 
   ![create folder](img/3.png)
  
@@ -76,7 +76,7 @@ pada staging sebelum proses commit.
 # Commit (Menyimpan perubahan ke database)
 * Untuk menyimpan perubahan yang ada kedalam database repository local, gunakan perintah 
 
-  ``$ git commit -m 'File pertama saya'``
+  ``$ git commit -m 'File pertama'``
 
 * Perubahan berhasil disimpan.
   
@@ -90,7 +90,7 @@ pada staging sebelum proses commit.
   ![new repo](img/6.png)
 
 # Membuat repository server
-* Isi nama repository nya, misal: Latihan-git 
+* Isi nama repository nya, 'LatihanVCS 
 * lalu klik tombol Create repository
   
   ![create repo](img/7.png)
@@ -124,5 +124,30 @@ pada staging sebelum proses commit.
 
   ![clone](img/10.png)
 
+# Menambahkan gambar
+* buat folder 'img' di dalam folder LatihanVCS
+* Lalu tambahkan / copy hasil screenshot ke dalam folder 'img'
 
+    ![create folder](img/11.png)
 
+* Ketik ``git add .`` untuk menambahkan semua file baru
+
+    ![git add](img/12.png)
+
+* Lalu commit dengan komentar 'commit kedua'
+
+    ![commit kedua](img/13.png)
+
+* Push file gambar ke repository server
+
+    ![push server](img/14.png)
+
+# Mengedit / merubah isi file README.md
+* buka repository local 'LatihanVCS'
+* edit file README.md dengan text editor seperti notepad, dll
+
+    ![edit readme](img/15.png)
+
+* Jika sudah klik save, lalu ketik ``git add .`` ``git commit 'commit ketiga`` dan ``git push -u origin master``
+
+    ![add,commit,push](img/16.png)
