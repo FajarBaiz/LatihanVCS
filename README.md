@@ -125,7 +125,7 @@ pada staging sebelum proses commit.
   ![clone](img/10.png)
 
 # Menambahkan gambar
-* buat folder 'img' di dalam folder LatihanVCS
+* Buat folder 'img' di dalam repository local 'LatihanVCS'
 * Lalu tambahkan / copy hasil screenshot ke dalam folder 'img'
 
     ![create folder](img/11.png)
@@ -143,10 +143,12 @@ pada staging sebelum proses commit.
     ![push server](img/14.png)
 
 # Mengedit / merubah isi file README.md
-* buka repository local 'LatihanVCS'
-* edit file README.md dengan text editor seperti notepad, dll
+* Buka repository local 'LatihanVCS'
+* Edit file README.md dengan text editor seperti notepad, dll
 
     ![edit readme](img/15.png)
+
+* Pengeditan file menggunakan bahasa markup .md, silahkan lihat dokumentasi nya di browser [link markup](https://guides.github.com/features/mastering-markdown/)
 
 * Jika sudah klik save, lalu ketik ``git add .``, ``git commit 'commit ketiga`` dan ``git push -u origin master``
 
