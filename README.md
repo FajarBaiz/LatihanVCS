@@ -157,3 +157,6 @@ pada staging sebelum proses commit.
 * Lihat perubahannya di github!
 
     ![finish](img/17.png)
+
+## DEMO
+[https://fajarbaiz.github.io/LatihanVCS/.](https://fajarbaiz.github.io/LatihanVCS/)
