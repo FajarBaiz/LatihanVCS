@@ -90,7 +90,7 @@ pada staging sebelum proses commit.
   ![new repo](img/6.png)
 
 # Membuat repository server
-* Isi nama repository nya, 'LatihanVCS 
+* Isi nama repository nya, 'LatihanVCS' 
 * lalu klik tombol Create repository
   
   ![create repo](img/7.png)
@@ -99,7 +99,7 @@ pada staging sebelum proses commit.
 * Remote Repository merupakan repository server yang akan digunakan untuk menyimpan setiap perubahan pada local repository, sehingga dapat diakses oleh banyak user.
 * Untuk menambahkan remote repository server, gunakan perintah git remote add origin [url]
   
-  ``$ git remote add origin https://github.com/fajarbaiz/latihan-git.git``
+  ``$ git remote add origin https://github.com/fajarbaiz/LatihanVCS.git``
   
 # Push (Mengirim perubahan ke server)
 * Untuk mengirim perubahan pada local repository ke server gunakan perintah git push.
@@ -120,7 +120,7 @@ pada staging sebelum proses commit.
 * Clone repository, pada dasarnya adalah meng-copy repository server dan secara otomatis membuat satu direktory sesuai dengan nama repositorynya (working directory).
 * Untuk melakukan cloning, gunakan perintah git clone [url]
   
-  ``git clone https://github.com/fajarbaiz/latihan-git.git``
+  ``git clone https://github.com/fajarbaiz/LatihanVCS.git``
 
   ![clone](img/10.png)
 
