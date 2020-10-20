@@ -39,7 +39,7 @@ pada staging sebelum proses commit.
 * ``git pull``, perintah untuk mengambil/mendownload perubahan terbaru dari server repository ke local repository
 
 # Membuat Reposiory Local
-* Buka direktory aktif, misal: '/Desktop/belajar-git'
+* Buka direktory aktif, misal: '/Documents/GitHub/'
 * Drop direktori ke terminal / CMD
 * Buat direktory project praktikum pertama dengan nama LatihanVCS
 
@@ -50,7 +50,7 @@ pada staging sebelum proses commit.
   ![create folder](img/3.png)
  
 * Sehingga terbentuk satu direktori baru dibawahnya, selanjutnya masuk kedalam direktori tersebut dengan perintah cd (change directory)
-* direktory aktif menjadi: /Desktop/belajar-git/latihan1
+* direktory aktif menjadi: /Documents/GitHub/LatihanVCS
 * Jalankan perintah git init, untuk membuat repository local. 
 ``$ git init``
 * Repository baru berhasil di inisialisasi, dengan terbentuknya satu direktori hidden dengan nama .git
@@ -148,6 +148,6 @@ pada staging sebelum proses commit.
 
     ![edit readme](img/15.png)
 
-* Jika sudah klik save, lalu ketik ``git add .`` ``git commit 'commit ketiga`` dan ``git push -u origin master``
+* Jika sudah klik save, lalu ketik ``git add .``, ``git commit 'commit ketiga`` dan ``git push -u origin master``
 
     ![add,commit,push](img/16.png)
