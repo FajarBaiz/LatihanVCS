@@ -151,3 +151,7 @@ pada staging sebelum proses commit.
 * Jika sudah klik save, lalu ketik ``git add .``, ``git commit 'commit ketiga`` dan ``git push -u origin master``
 
     ![add,commit,push](img/16.png)
+
+* Lihat perubahannya di github!
+
+    ![finish](img/17.png)
