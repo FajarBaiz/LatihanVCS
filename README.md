@@ -60,7 +60,7 @@ pada staging sebelum proses commit.
 * Untuk membuat file dapat menggunakan text editor, lalu menyimpan filenya pada direktori aktif (repository)
 * disini kita akan coba buat satu file bernama README.md (text file)
 
-  ``$ echo “# Latihan 1” >> README.md``
+  ``$ echo “# LatihanVCS” >> README.md``
 
 * File README.md berhasil dibuat.
 
@@ -76,7 +76,7 @@ pada staging sebelum proses commit.
 # Commit (Menyimpan perubahan ke database)
 * Untuk menyimpan perubahan yang ada kedalam database repository local, gunakan perintah 
 
-  ``$ git commit -m 'File pertama'``
+  ``$ git commit -m 'commit pertama'``
 
 * Perubahan berhasil disimpan.
   
